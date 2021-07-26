@@ -10,5 +10,5 @@ SDK openjdk-16.0.1 БД: Oracle SQL Developer. Оracle Database 18c Express Edit
 ![alt text](ParseProject/img1.png)
 
 Далее заходим в SQL Developer и просматриваем таблицы в БД  
-![alt text](ParseProject/img2.png)
+![alt text](Gamid-Dibirov/ParseProject/img2.png)
 ![alt text](ParseProject/img3.png)
