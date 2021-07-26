@@ -7,8 +7,8 @@ SDK openjdk-16.0.1 БД: Oracle SQL Developer. Оracle Database 18c Express Edit
 В SQL Developer необходимо создать соединение librbook (username: hr ; password: dbpword) и импортировать запросы с SQL-файла.
 
 Запускаем проект (Shift+F10) и прописываем полное имя json-файла
-![](ParseProject/img1.png)
+![alt text](ParseProject/img1.png)
 
 Далее заходим в SQL Developer и просматриваем таблицы в БД  
-![](ParseProject/img2.png)
-![](ParseProject/img3.png)
+![alt text](ParseProject/img2.png)
+![alt text](ParseProject/img3.png)
