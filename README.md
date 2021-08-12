@@ -18,9 +18,13 @@ SDK openjdk-16.0.1 БД: Oracle SQL Developer. Оracle Database 18c Express Edit
 2.	Распаковываем архив, запускаем установку, ставим в процессе установки пароль (dbpword).
 3.	Далее открываем в поиске SQL PLUS. Username: system. Password: dbpword.
 4.	Поочередно вводим 3 команды.
+	
 alter session set "_ORACLE_SCRIPT"=true; 
+
 create user hr identified by hr account unlock; 
+
 grant DBA to hr;
+
 5.	Скачать SQL Developer с оф. сайта
 
 https://www.oracle.com/tools/downloads/sqldev-downloads.html
