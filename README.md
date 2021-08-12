@@ -25,13 +25,19 @@ grant DBA to hr;
 https://www.oracle.com/tools/downloads/sqldev-downloads.html
 6.	Распаковываем архив, запускаем установку.
 7.	Добавляем соединение, нажав на +
+
 ![alt text](https://github.com/Gamid-Dibirov/ParseProject/blob/main/4.png?raw=true)
 8.	Далее заполняем окно следующим образом 
+
 ![alt text](https://github.com/Gamid-Dibirov/ParseProject/blob/main/5.png?raw=true)
 При тесте соединения статус должен быть успешен
+
 ![alt text](https://github.com/Gamid-Dibirov/ParseProject/blob/main/6.png?raw=true)
 9.	После создания соединения, необходимо зайти в него по паролю. Далее скачиваем файл Practice.sql (выделив скрипт и вставив его в локальный файл), открываем в SQL Developer и запускаем как сценарий (F5)
+
 ![alt text](https://github.com/Gamid-Dibirov/ParseProject/blob/main/7.png?raw=true)
+
 ![alt text](https://github.com/Gamid-Dibirov/ParseProject/blob/main/8.png?raw=true)
 10.	Таблицы в БД созданы.
+
 ![alt text](https://github.com/Gamid-Dibirov/ParseProject/blob/main/9.png?raw=true)
