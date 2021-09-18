@@ -4,7 +4,16 @@
 SDK openjdk-16.0.1 БД: Oracle SQL Developer. Оracle Database 18c Express Edition 
 Для подключения к БД использовался Oracle Driver OJDBC8.jar Парсинг реализован с помощью библиотеки GSON
 Для того, чтобы собрать приложение нужно:
-*скачать основную папку с проектом, открыть её в IntelliJ IDEA. 
++ скачать основную папку с проектом, открыть её в IntelliJ IDEA.
++ Скачать Oracle JDBC Driver (ojdbc8.jar) с сайта https://www.oracle.com/database/technologies/appdev/jdbc-ucp-18-15-downloads.html
++ Скачать Apache Maven версии 3.8.1 с сайта https://maven.apache.org/download.cgi
++ Далее нужно прописать переменные среды (M2_HOME= C:\apache-maven-3.8.1 и MAVEN_HOME = C:\apache-maven-3.8.1) и 
+добавить значение системную переменную PATH -- C:\apache-maven-3.8.1\bin. 
+Найти переменные можно так: Мой Компьютер -> Свойства -> Дополнительные параметры системы -> Переменные среды.
++ После открываем проект в IDEA и в командное строке среды прописываем следующее:
+mvn install:install-file -Dfile=path/to/your/ojdbc8.jar -DgroupId=com.oracle -DartifactId=ojdbc8 -Dversion=19.3 -Dpackaging=jar
+где path/to/your/ojdbc8.jar – это путь до Вашего ojdbc8.jar файла на компьютере.
+
 В SQL Developer необходимо создать соединение librbook (username: hr ; password: dbpword) и импортировать запросы с SQL-файла.
 
 Запускаем проект (Shift+F10) и прописываем полное имя json-файла
