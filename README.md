@@ -12,6 +12,7 @@ SDK openjdk-16.0.1 БД: Oracle SQL Developer. Оracle Database 18c Express Edit
 Найти переменные можно так: Мой Компьютер -> Свойства -> Дополнительные параметры системы -> Переменные среды.
 + После открываем проект в IDEA и в командное строке среды прописываем следующее:
 mvn install:install-file -Dfile=path/to/your/ojdbc8.jar -DgroupId=com.oracle -DartifactId=ojdbc8 -Dversion=19.3 -Dpackaging=jar
+
 где path/to/your/ojdbc8.jar – это путь до Вашего ojdbc8.jar файла на компьютере.
 
 В SQL Developer необходимо создать соединение librbook (username: hr ; password: dbpword) и импортировать запросы с SQL-файла.
